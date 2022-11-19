@@ -8,4 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: git pull origin
+      - run: |
+          echo "Bobylev"
+          git pull
